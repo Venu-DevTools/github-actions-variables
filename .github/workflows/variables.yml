@@ -6,8 +6,8 @@ on:
 env:
   ACCESS_ID: ${{ vars.ACCESS_ID }}
 
-jobs:
-  build:
+jobs: 
+  build: #new job added
     runs-on: ubuntu-latest
 
     steps:
